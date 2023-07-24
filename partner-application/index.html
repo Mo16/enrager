@@ -783,7 +783,7 @@
       data-footer-reveal="false" data-footer-reveal-shadow="none" data-header-format="centered-menu"
       data-body-border="off" data-boxed-style="" data-header-breakpoint="1000" data-dropdown-style="minimal"
       data-cae="easeOutQuart" data-cad="1400" data-megamenu-width="contained" data-aie="none" data-ls="fancybox"
-      data-apte="standard" data-hhun="1" data-fancy-form-rcs="1" data-form-style="default" data-form-submit="default"
+      data-apte="standard" data-hhun="1" data-fancy-form-rcs="1" 
       data-is="minimal" data-button-style="rounded_shadow" data-user-account-button="false" data-flex-cols="true"
       data-col-gap="50px" data-header-inherit-rc="false" data-header-search="false" data-animated-anchors="true"
       data-ajax-transitions="false" data-full-width-header="true" data-slide-out-widget-area="true"
@@ -1190,31 +1190,38 @@
 
 								
                                        </div>
+									   <form  name="contact" method="POST" netlify>
+										<p>
+										  <label>Name: <input type="text" name="name" /></label>
+										</p>
+										<p>
+										  <label>Email: <input type="email" name="email" /></label>
+										</p>
+										<p>
+											<label>Twitter Handle: <input type="text" name="twitter" /></label>
+										
+										</p>
+										<p>
+											<label>Your Community: <textarea name="community"></textarea></label>
+										  </p>
+										  <p>
+											<label>Position: <textarea name="position"></textarea></label>
+										  </p>
+										  <p>
+											<label>Subject: <textarea name="subject"></textarea></label>
+										  </p>
+										  <p>
+											<label>Your Message (Optional): <textarea rows="10" name="message"></textarea></label>
+										  </p>
+										<p>
+										  <button style="z-index: 10000;" type="submit">Send</button>
+										</p>
+									  </form>
                                     </div>
                                  </div>
                               </div>
                            </div>
                         </div>
-						<form name="contact" method="POST" netlify>
-							<p>
-							  <label>Your Name: <input type="text" name="name" /></label>
-							</p>
-							<p>
-							  <label>Your Email: <input type="email" name="email" /></label>
-							</p>
-							<p>
-							  <label>Your Role: <select name="role[]" multiple>
-								<option value="leader">Leader</option>
-								<option value="follower">Follower</option>
-							  </select></label>
-							</p>
-							<p>
-							  <label>Message: <textarea name="message"></textarea></label>
-							</p>
-							<p>
-							  <button type="submit">Send</button>
-							</p>
-						  </form>
                      </div>
                   </div>
                   <div class="nectar-global-section before-footer">
