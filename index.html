@@ -970,9 +970,7 @@
 				padding-bottom: 6vw;
 			}
 
-			.wpb_column.left_padding_desktop_7vw>.vc_column-inner {
-				padding-left: 7vw;
-			}
+			
 		}
 
 		@media only screen,
@@ -1114,10 +1112,10 @@
 
 		@media only screen,
 		print {
-			.wpb_column.left_padding_desktop_7vw>.vc_column-inner {
-				padding-left: 7vw;
-			}
+			
 		}
+
+
 
 		@media only screen,
 		print {
@@ -1176,6 +1174,9 @@
 			.wpb_column.top_margin_tablet_10pct {
 				margin-top: 10% !important;
 			}
+			.wpb_column.right_padding_desktop_7pct>.n-sticky>.vc_column-inner {
+				padding-right: 0% !important;
+			}
 		}
 
 		.wpb_column.child_column.el_spacing_0px>.vc_column-inner>.wpb_wrapper>div:not(:last-child) {
@@ -1229,7 +1230,13 @@
 			}
 		}
 
+		.wpb_column.left_padding_desktop_7vw>.vc_column-inner {
+				padding-left: 7vw;
+			}
 		@media only screen and (max-width:690px) {
+			.wpb_column.left_padding_desktop_7vw>.vc_column-inner {
+				padding-left: 1px;
+			}
 			.column_element_direction_desktop_horizontal.force-phone-text-align-right>.vc_column-inner>.wpb_wrapper {
 				justify-content: flex-end;
 			}
@@ -5132,10 +5139,10 @@
 															data-padding-pos="all" data-has-bg-color="false"
 															data-bg-color="" data-bg-opacity="1" data-animation=""
 															data-delay="0">
-															<div class="vc_column-inner">
+															<div  class="vc_column-inner">
 																<div class="wpb_wrapper">
 																	<div class="nectar-split-heading  font_line_height_1-3 "
-																		data-align="default" data-m-align="inherit"
+																		data-align="default" data--align="inherit"
 																		data-text-effect="default"
 																		data-animation-type="line-reveal-by-space"
 																		data-animation-delay="0"
