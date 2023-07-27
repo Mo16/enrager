@@ -1,6 +1,6 @@
 <div align="center">
 <a href="https://splidejs.com">
-  <img alt="Splide" src="./images/logo.svg" width="70">
+  <img alt="Splide" src="./images/wp-content/uploads/2023/07/engager_logo_website.png" width="70">
 </a>
 
 <h1>Splide</h1>
@@ -33,19 +33,19 @@ No dependencies, no Lighthouse errors.
 </h3>
 <p>
   <a href="https://splidejs.com/guides/getting-started/">
-    <img alt="React Splide" src="./images/javascript-logo.svg" width="30">
+    <img alt="React Splide" src="./images/javascript-wp-content/uploads/2023/07/engager_logo_website.png" width="30">
   </a>
   <a href="https://splidejs.com/guides/getting-started/">
-    <img alt="React Splide" src="./images/typescript-logo.svg" width="30">
+    <img alt="React Splide" src="./images/typescript-wp-content/uploads/2023/07/engager_logo_website.png" width="30">
   </a>
   <a href="https://splidejs.com/integration/react-splide/">
-    <img alt="React Splide" src="./images/react-logo.svg" width="30">
+    <img alt="React Splide" src="./images/react-wp-content/uploads/2023/07/engager_logo_website.png" width="30">
   </a>
   <a href="https://splidejs.com/integration/vue-splide/">
-    <img alt="Vue Splide" src="./images/vue-logo.svg" width="30">
+    <img alt="Vue Splide" src="./images/vue-wp-content/uploads/2023/07/engager_logo_website.png" width="30">
   </a>
   <a href="https://splidejs.com/integration/svelte-splide/">
-    <img alt="Vue Splide" src="./images/svelte-logo.svg" width="30">
+    <img alt="Vue Splide" src="./images/svelte-wp-content/uploads/2023/07/engager_logo_website.png" width="30">
   </a>
 </p>
 
